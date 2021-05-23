@@ -63,4 +63,4 @@
 
     * Get the INGRESS GATEWAY url: `kubectl get svc/consul-ingress-gateway --context us-west -o json | jq -r '.status.loadBalancer.ingress[0].hostname'`
     * Run - `curl -H "Host: frontend.ingress.consul" "http://$INGRESS_GATEWAY:8080"`
-    * To access `http://$INGRESS_GATEWAY:8080"` from a browser, use a browser extension to set the `Host` header to `frontend.ingress.consul`.
+    * To access `http://$INGRESS_GATEWAY:8080"` from a browser, use a browser extension to set the `Host` header to `frontend.ingress.consul`. Example: on Chrome, I used the `ModHeader` extension. 
