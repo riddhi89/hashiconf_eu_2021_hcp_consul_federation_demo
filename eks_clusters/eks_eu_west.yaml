@@ -1,0 +1,15 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: hcp-consul-fed-demo-eu-west
+  region: eu-west-2
+  version: "1.18"
+
+vpc:
+  cidr: 172.26.0.0/20
+
+managedNodeGroups:
+- name: nodegroup
+  desiredCapacity: 2
+  instanceType: t3.small
