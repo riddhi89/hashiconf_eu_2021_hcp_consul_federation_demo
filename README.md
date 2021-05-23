@@ -11,7 +11,7 @@
 3. Update kube contexts to more friendly names -> us-west, eu-west, eu-central
 
 
-## DEMO SETUP
+## DEMO SETUP DIAGRAM
 
 ![demo](https://user-images.githubusercontent.com/4574087/119274113-2fce5400-bbc3-11eb-9db2-ef7bdaa5f40e.png)
 
